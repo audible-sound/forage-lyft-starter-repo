@@ -1,7 +1,7 @@
-from vehicle import Vehicle
+from servicable import Servicable
 
 
-class Car(Vehicle):
+class Car(Servicable):
     def __init__(self, Engine, Battery) -> None:
         self.engine = Engine
         self.battery = Battery
