@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-class Vehicle(ABC):
+class Servicable(ABC):
     @abstractmethod
     def needs_service():
         pass
